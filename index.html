@@ -48,7 +48,7 @@
 			<nav class="main-menu">
 				<ul>
 					<li><a href="index.html">Home</a></li>
-					<li><a href="review.html">Games</a></li>
+				
 					<li><a href="categories.html">Youtube</a></li>
 					<li><a href="community.html">Community</a></li>
 					<li><a href="contact.html">Contact</a></li>
@@ -105,16 +105,15 @@
 			<div class=section-title>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-   
-   $('#content').load("countdown.html");
+<div class="section-title">
+	<h3>----------------------------</h3>
+	 <a href="https://forms.gle/Jfmki75tEMzuRqdU9"> <h3 style="color:green">REGISTER ACCOUNT </h3></a>
+	<h3>----------------------------</h3>
 
-});
-</script>
 
-<div id="content"></div>
+</div>
+
+
 
 
 </div>
@@ -128,9 +127,18 @@ $(document).ready(function(){
 	<section class="recent-game-section spad set-bg" data-setbg="img/recent-game-bg.png">
 		<div class="container">
 			<div class="section-title">
-				<div class="cata new">new</div>
-				<h2>Upcoming Contest</h2>
-			</div>
+				<div class="cata new"><h4>Hot To Participate</h4></div><br><br>
+		
+				1. Download The Game IOS/Android<br><br>
+				2. Get GooglePay App<a href="https://g.co/payinvite/a1oq8w"> Download</a><br><br>
+				3. Join Discord Server <a href="https://discord.gg/qJKvKTc"> Join</a><br><br>
+				4. Apply Application  <a href="https://forms.gle/Jfmki75tEMzuRqdU9" >Form </a><br><br>
+		
+
+
+				
+ </div>
+			
 			<div class="row">
 				<div class="col-lg-4 col-md-6">
 					<div class="recent-game-item">
@@ -139,7 +147,8 @@ $(document).ready(function(){
 						</div>
 						<div class="rgi-content">
 							<h5>The famous battle royale</h5>
-							<p>Pubg mobile only tournament coming soon. Join our Discord and community channel for updates </p>
+							
+							<div id="PUBGcontent"></div>
 							
 							
 						</div>
@@ -152,7 +161,8 @@ $(document).ready(function(){
 						</div>
 						<div class="rgi-content">
 							<h5>Tournament coming soon</h5>
-							<p>Only mobile players emulator contest will be held later in the future. We are planing to held weekends  </p>
+							
+							<div id="CODcontent"></div>
 							
 							
 						</div>
@@ -187,7 +197,7 @@ $(document).ready(function(){
 						<div class="ti-content">
 							<div class="ti-thumb set-bg" data-setbg="img/tournament/1.jpg"></div>
 							<div class="ti-text">
-								<h4>World Of WarCraft</h4>
+								<h4>PUBGM</h4>
 								<ul>
 									<li><span>Tournament Beggins:</span> June 20, 2020</li>
 									<li><span>Tounament Ends:</span> July 01, 2020</li>
@@ -205,7 +215,7 @@ $(document).ready(function(){
 						<div class="ti-content">
 							<div class="ti-thumb set-bg" data-setbg="img/tournament/2.jpg"></div>
 							<div class="ti-text">
-								<h4>DOOM</h4>
+								<h4>CODM</h4>
 								<ul>
 									<li><span>Tournament Beggins:</span> June 20, 2022</li>
 									<li><span>Tounament Ends:</span> July 01, 2022</li>
@@ -233,7 +243,7 @@ $(document).ready(function(){
 		<div class="container">
 			<ul class="footer-menu">
 				<li><a href="index.html">Home</a></li>
-				<li><a href="review.html">Games</a></li>
+			
 				<li><a href="categories.html">Youtube</a></li>
 				<li><a href="community.html">Community</a></li>
 				<li><a href="contact.html">Contact</a></li>
@@ -253,5 +263,14 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/jquery.marquee.min.js"></script>
 	<script src="js/main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+   
+   $('#PUBGcontent').load("PUBGcountdown.html");
+	$('#CODcontent').load("CODcountdown.html");
+
+});
+</script>
     </body>
 </html>
